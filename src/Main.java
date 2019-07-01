@@ -6,13 +6,24 @@ import java.net.Socket;
 import java.util.Scanner;
 
 /*
-v0.0.1
+v0.0.2
 
-Currently:
- - Joins IRC server (static) [Line 21]
- - Responds to pings [Line 34]
- - Sends "Hello Channel!" on join [Line 38]
+Currently Supports:
+ - Custom Input
+    + Address
+    + Nickname
+    + Channel
+ - Event Reading
+    + Messages
+    + Headers
 
+Todo:
+ - More event support
+ - Sending support
+ - Command support
+    + List
+    + Help
+    + etc.
  */
 
 public class Main {
